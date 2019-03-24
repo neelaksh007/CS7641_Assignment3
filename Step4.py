@@ -168,7 +168,7 @@ for dataset in ['biodeg.csv']:
 
     #####################################################
     #####################################################
-    print ("TESTING ANOTHER PIECE")
+    #print ("TESTING ANOTHER PIECE")
     
     
 def plot_learning_curve(estimator, title, X, y, ylim=None, cv=5,

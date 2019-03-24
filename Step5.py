@@ -30,7 +30,7 @@ nn_arch= [(10,10,10),(20,20,20),(30,30,30),(40,40,40),(50,50,50),(82,82,82)]
 nn_iter = [500,1000,1500,2000,2500]
 
 for dataset in ['biodeg.csv']:
-    skip = True
+    skip = False
     if not skip:
         print("\nWorking on",dataset,"data set...")
     
